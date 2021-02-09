@@ -11,6 +11,7 @@ class _Hal2State extends State<Hal2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.teal,
       appBar: AppBar(
         title: Text("QR Code Generate"),
         centerTitle: true,
